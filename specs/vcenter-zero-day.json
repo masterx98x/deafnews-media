@@ -1,0 +1,693 @@
+{
+ "slug": "vcenter-zero-day",
+ "article": "https://deafnews.it/it/notizie/cybersecurity/vmware-vcenter-zero-day-cvss-98-sfruttata-oltre-due-mesi-da-apt-cinese",
+ "hl": [
+  "vcenter",
+  "vmware",
+  "castle",
+  "armory",
+  "amministratori",
+  "seguimi",
+  "deafnews.it",
+  "log",
+  "zero-day",
+  "password",
+  "critica",
+  "cina"
+ ],
+ "post": {
+  "title": "2 mesi da admin nel cuore dei data center: vCenter, CVSS 9.8 🕵️💥",
+  "description": "La combinazione della cassaforte era... l'ora in cui l'avevi chiusa 🔐 Zero-day in VMware vCenter sfruttato per oltre 2 mesi: patcha e controlla i log. Tutta la storia su deafnews.it 🔗",
+  "hashtags": "#cybersecurity #sicurezzainformatica #vmware"
+ },
+ "cover": [
+  {
+   "type": "title",
+   "text": "2 MESI",
+   "size": 250,
+   "color": "green",
+   "y": 500
+  },
+  {
+   "type": "title",
+   "text": "DA ADMIN",
+   "size": 210,
+   "color": "white",
+   "y": 760,
+   "rot": -3
+  },
+  {
+   "type": "emoji",
+   "e": "🥷",
+   "size": 150,
+   "x": 930,
+   "y": 360
+  },
+  {
+   "type": "emoji",
+   "e": "👑",
+   "size": 90,
+   "x": 930,
+   "y": 270,
+   "rot": -10
+  },
+  {
+   "type": "emoji",
+   "e": "🎛️",
+   "size": 150,
+   "x": 920,
+   "y": 1010
+  },
+  {
+   "type": "badge",
+   "text": "CVSS 9.8",
+   "size": 130,
+   "x": 500,
+   "y": 1020,
+   "rot": 4
+  },
+  {
+   "type": "pill",
+   "text": "ZERO-DAY SFRUTTATO · PATCHA ORA",
+   "size": 38,
+   "color": "red",
+   "text_color": "white",
+   "y": 1220,
+   "w": 920,
+   "h": 90
+  },
+  {
+   "type": "pill",
+   "text": "VMware vCenter",
+   "font": "mono",
+   "size": 58,
+   "color": "yellow",
+   "y": 1380,
+   "w": 760,
+   "h": 100
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "voice": "Ragazzi! Per più di due mesi, degli hacker sono entrati come amministratori nel cuore dei data center... e nessuno lo sapeva! Gravità nove virgola otto!",
+   "cap": "Ragazzi! Per più di due mesi, degli hacker sono entrati come amministratori nel cuore dei data center... e nessuno lo sapeva! Gravità 9.8!",
+   "items": [
+    {
+     "type": "title",
+     "text": "2 MESI",
+     "size": 210,
+     "color": "green",
+     "y": 500
+    },
+    {
+     "type": "title",
+     "text": "DA ADMIN",
+     "size": 170,
+     "color": "white",
+     "y": 720,
+     "rot": -3,
+     "at": 0.4
+    },
+    {
+     "type": "emoji",
+     "e": "🥷",
+     "size": 130,
+     "x": 160,
+     "y": 400,
+     "at": "amministratori",
+     "sfx": "glitch"
+    },
+    {
+     "type": "emoji",
+     "e": "👑",
+     "size": 80,
+     "x": 160,
+     "y": 320,
+     "rot": -10,
+     "at": "amministratori",
+     "sfx": "none"
+    },
+    {
+     "type": "emoji",
+     "e": "🙈",
+     "size": 120,
+     "x": 920,
+     "y": 880,
+     "at": "nessuno",
+     "sfx": "boing"
+    },
+    {
+     "type": "badge",
+     "text": "CVSS 9.8",
+     "size": 120,
+     "y": 1060,
+     "rot": 4,
+     "impact": true,
+     "at": "9.8"
+    },
+    {
+     "type": "emoji",
+     "e": "💥",
+     "size": 140,
+     "x": 190,
+     "y": 1000,
+     "at": "9.8",
+     "sfx": "none"
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "voice": "Parliamo di vi em uèr vi sènter: il telecomando centrale di server, macchine virtuali, dischi e reti. Chi lo controlla, controlla tutto il data center.",
+   "cap": "Parliamo di VMware vCenter: il telecomando centrale di server, macchine virtuali, dischi e reti. Chi lo controlla, controlla tutto il data center.",
+   "items": [
+    {
+     "type": "card",
+     "label": "VMware",
+     "text": "vCenter",
+     "color": "cyan",
+     "y": 500
+    },
+    {
+     "type": "emoji",
+     "e": "🎛️",
+     "size": 160,
+     "y": 760,
+     "at": "telecomando",
+     "sfx": "ding"
+    },
+    {
+     "type": "line",
+     "xy": [
+      540,
+      830,
+      250,
+      900
+     ],
+     "at": "server"
+    },
+    {
+     "type": "emoji",
+     "e": "🖥️",
+     "size": 100,
+     "x": 250,
+     "y": 960,
+     "at": "server"
+    },
+    {
+     "type": "text",
+     "text": "server",
+     "size": 38,
+     "color": "white",
+     "x": 250,
+     "y": 1040,
+     "at": "server",
+     "sfx": "none"
+    },
+    {
+     "type": "line",
+     "xy": [
+      540,
+      830,
+      450,
+      960
+     ],
+     "at": "macchine"
+    },
+    {
+     "type": "emoji",
+     "e": "💻",
+     "size": 100,
+     "x": 450,
+     "y": 1020,
+     "at": "macchine"
+    },
+    {
+     "type": "text",
+     "text": "VM",
+     "size": 38,
+     "color": "white",
+     "x": 450,
+     "y": 1100,
+     "at": "macchine",
+     "sfx": "none"
+    },
+    {
+     "type": "line",
+     "xy": [
+      540,
+      830,
+      650,
+      960
+     ],
+     "at": "dischi"
+    },
+    {
+     "type": "emoji",
+     "e": "💾",
+     "size": 100,
+     "x": 650,
+     "y": 1020,
+     "at": "dischi"
+    },
+    {
+     "type": "text",
+     "text": "dischi",
+     "size": 38,
+     "color": "white",
+     "x": 650,
+     "y": 1100,
+     "at": "dischi",
+     "sfx": "none"
+    },
+    {
+     "type": "line",
+     "xy": [
+      540,
+      830,
+      850,
+      900
+     ],
+     "at": "reti"
+    },
+    {
+     "type": "emoji",
+     "e": "🌐",
+     "size": 100,
+     "x": 850,
+     "y": 960,
+     "at": "reti"
+    },
+    {
+     "type": "text",
+     "text": "reti",
+     "size": 38,
+     "color": "white",
+     "x": 850,
+     "y": 1040,
+     "at": "reti",
+     "sfx": "none"
+    },
+    {
+     "type": "badge",
+     "text": "CONTROLLA TUTTO",
+     "size": 80,
+     "y": 1220,
+     "at": "Chi lo controlla"
+    }
+   ]
+  },
+  {
+   "id": "safe",
+   "voice": "La falla? Immagina una cassaforte la cui combinazione è... l'ora esatta in cui l'hai chiusa. Basta sbirciare l'orologio, e si apre!",
+   "cap": "La falla? Immagina una cassaforte la cui combinazione è... l'ora esatta in cui l'hai chiusa. Basta sbirciare l'orologio, e si apre!",
+   "items": [
+    {
+     "type": "emoji",
+     "e": "🔐",
+     "size": 230,
+     "x": 300,
+     "y": 650,
+     "until": "si apre"
+    },
+    {
+     "type": "title",
+     "text": "CASSAFORTE",
+     "size": 56,
+     "x": 300,
+     "y": 820
+    },
+    {
+     "type": "pill",
+     "text": "? ? ? ?",
+     "font": "mono",
+     "size": 70,
+     "color": "yellow",
+     "text_color": "white",
+     "x": 760,
+     "y": 560,
+     "w": 420,
+     "h": 120,
+     "at": "combinazione",
+     "until": "ora esatta"
+    },
+    {
+     "type": "pill",
+     "text": "12:34:07",
+     "font": "mono",
+     "size": 70,
+     "color": "yellow",
+     "text_color": "white",
+     "x": 760,
+     "y": 560,
+     "w": 420,
+     "h": 120,
+     "at": "ora esatta",
+     "sfx": "typing"
+    },
+    {
+     "type": "emoji",
+     "e": "🕐",
+     "size": 170,
+     "x": 760,
+     "y": 780,
+     "wobble": 8,
+     "at": "orologio",
+     "sfx": "ding"
+    },
+    {
+     "type": "emoji",
+     "e": "👀",
+     "size": 100,
+     "x": 900,
+     "y": 700,
+     "at": "orologio",
+     "sfx": "none"
+    },
+    {
+     "type": "emoji",
+     "e": "🔓",
+     "size": 230,
+     "x": 300,
+     "y": 650,
+     "at": "si apre",
+     "sfx": "success"
+    },
+    {
+     "type": "badge",
+     "text": "SI APRE!",
+     "size": 90,
+     "y": 1080,
+     "at": "si apre",
+     "sfx": "none"
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "voice": "Tecnicamente: nella stretta di mano iniziale alcuni valori sono prevedibili. L'attaccante ricava la chiave di sessione e diventa amministratore. Senza password!",
+   "cap": "Tecnicamente: nella stretta di mano iniziale alcuni valori sono prevedibili. L'attaccante ricava la chiave di sessione e diventa amministratore. Senza password!",
+   "items": [
+    {
+     "type": "code",
+     "title": "vCenter",
+     "y": 700,
+     "h": 320,
+     "lines": [
+      [
+       "vmdird  :2012  (DCE/RPC)",
+       "grey"
+      ],
+      [
+       "handshake SRP-6a",
+       "white"
+      ],
+      [
+       "UUIDv1 = timestamp prevedibile",
+       "yellow",
+       "prevedibili"
+      ],
+      [
+       "-> chiave di sessione ricavata",
+       "red",
+       "chiave di sessione"
+      ]
+     ],
+     "at": 0.0
+    },
+    {
+     "type": "emoji",
+     "e": "🤝",
+     "size": 100,
+     "x": 950,
+     "y": 520,
+     "at": "stretta di mano"
+    },
+    {
+     "type": "pill",
+     "text": "administrator@vsphere.local",
+     "font": "mono",
+     "size": 40,
+     "color": "red",
+     "y": 960,
+     "w": 760,
+     "h": 100,
+     "at": "amministratore"
+    },
+    {
+     "type": "title",
+     "text": "SENZA PASSWORD!",
+     "size": 86,
+     "color": "red",
+     "y": 1120,
+     "rot": -3,
+     "at": "Senza password",
+     "sfx": "buzz"
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "voice": "Chi l'ha usata? Secondo Google e Mandiant, un gruppo di spionaggio legato alla Cina: Àrmori Càsl.",
+   "cap": "Chi l'ha usata? Secondo Google e Mandiant, un gruppo di spionaggio legato alla Cina: ARMORY CASTLE.",
+   "items": [
+    {
+     "type": "title",
+     "text": "CHI È STATO?",
+     "size": 120,
+     "y": 430
+    },
+    {
+     "type": "pill",
+     "text": "fonte: Google GTIG + Mandiant",
+     "size": 34,
+     "color": "grey",
+     "text_color": "grey",
+     "y": 580,
+     "w": 560,
+     "h": 80,
+     "at": "Google",
+     "sfx": "none"
+    },
+    {
+     "type": "emoji",
+     "e": "🕵️",
+     "size": 200,
+     "y": 790,
+     "at": "spionaggio",
+     "sfx": "scratch"
+    },
+    {
+     "type": "badge",
+     "text": "ARMORY CASTLE",
+     "size": 96,
+     "y": 1010,
+     "at": "ARMORY",
+     "sfx": "boom"
+    },
+    {
+     "type": "text",
+     "text": "aka UNC5221 · Warp Panda",
+     "size": 40,
+     "y": 1130,
+     "at": "ARMORY",
+     "sfx": "none"
+    }
+   ]
+  },
+  {
+   "id": "acts",
+   "voice": "Una volta dentro: sessioni da admin, salti verso altri server e macchine Windows, file rubati... e token falsi per aggirare l'autenticazione a due fattori!",
+   "cap": "Una volta dentro: sessioni da admin, salti verso altri server e macchine Windows, file rubati... e token falsi per aggirare l'autenticazione a due fattori!",
+   "items": [
+    {
+     "type": "title",
+     "text": "UNA VOLTA DENTRO",
+     "size": 100,
+     "color": "red",
+     "y": 430
+    },
+    {
+     "type": "list",
+     "color": "red",
+     "y": 600,
+     "step": 150,
+     "rows": [
+      [
+       "👑",
+       "sessioni da admin",
+       "admin"
+      ],
+      [
+       "🦘",
+       "salti su altri server e VM",
+       "salti"
+      ],
+      [
+       "📁",
+       "file rubati",
+       "file rubati"
+      ],
+      [
+       "🎟️",
+       "token falsi: addio 2FA",
+       "token"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "time",
+   "voice": "La patch è arrivata solo il diciannove novembre: almeno due mesi e dieci giorni di zero day! Gravità? Nove virgola otto. Critica!",
+   "cap": "La patch è arrivata solo il 19 novembre: almeno 2 mesi e 10 giorni di zero-day! Gravità? 9.8. Critica!",
+   "items": [
+    {
+     "type": "title",
+     "text": "FINESTRA ZERO-DAY",
+     "size": 96,
+     "y": 430,
+     "until": "Gravità"
+    },
+    {
+     "type": "timeline",
+     "y": 720,
+     "left": "inizio settembre",
+     "right": "19 nov: patch",
+     "right_at": "19 novembre",
+     "emoji": "🥷",
+     "end_emoji": "🩹",
+     "at": 0.3,
+     "until": "Gravità"
+    },
+    {
+     "type": "title",
+     "text": "2 MESI + 10 GIORNI",
+     "size": 100,
+     "color": "red",
+     "y": 1000,
+     "rot": -3,
+     "at": "2 mesi",
+     "until": "Gravità",
+     "sfx": "buzz"
+    },
+    {
+     "type": "gauge",
+     "value": 9.8,
+     "label": "CRITICA",
+     "y": 760,
+     "at": "Gravità"
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "voice": "Cosa fare? Applica subito l'aggiornamento di Broadcom. E se hai ancora vi sènter sette: niente patch pubblica!",
+   "cap": "Cosa fare? Applica subito l'aggiornamento di Broadcom. E se hai ancora vCenter 7.0: niente patch pubblica!",
+   "items": [
+    {
+     "type": "title",
+     "text": "COSA FARE?",
+     "size": 120,
+     "y": 420
+    },
+    {
+     "type": "emoji",
+     "e": "🛠️",
+     "size": 110,
+     "x": 900,
+     "y": 330,
+     "sfx": "none"
+    },
+    {
+     "type": "code",
+     "title": "vCenter",
+     "y": 680,
+     "w": 900,
+     "lines": [
+      [
+       "Broadcom VMSA-2026-0009",
+       "white"
+      ],
+      [
+       "  applica patch...",
+       "yellow"
+      ]
+     ],
+     "type_at": "Applica",
+     "done": [
+      "✔ vCenter aggiornato!",
+      "green"
+     ],
+     "at": "Applica"
+    },
+    {
+     "type": "pill",
+     "text": "vCenter 7.0: niente patch pubblica!",
+    "icon": "⚠️",
+     "size": 46,
+     "color": "red",
+     "y": 980,
+     "w": 900,
+     "h": 140,
+     "at": "7.0",
+     "sfx": "buzz"
+    }
+   ]
+  },
+  {
+   "id": "hunt",
+   "voice": "Ma aggiornare non basta: controlla i log! Accessi strani dell'admin, account nuovi, e traffico sulla porta duemiladodici.",
+   "cap": "Ma aggiornare non basta: controlla i log! Accessi strani dell'admin, account nuovi, e traffico sulla porta 2012.",
+   "items": [
+    {
+     "type": "title",
+     "text": "CONTROLLA I LOG!",
+     "size": 110,
+     "color": "red",
+     "y": 430
+    },
+    {
+     "type": "emoji",
+     "e": "🔍",
+     "size": 130,
+     "x": 920,
+     "y": 300,
+     "wobble": 10,
+     "sfx": "none"
+    },
+    {
+     "type": "list",
+     "color": "yellow",
+     "y": 640,
+     "step": 170,
+     "rows": [
+      [
+       "👑",
+       "accessi strani dell'admin",
+       "Accessi"
+      ],
+      [
+       "👤",
+       "account nuovi",
+       "account"
+      ],
+      [
+       "🔌",
+       "traffico porta 2012",
+       "porta"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "voice": "Vuoi tutta la storia? La trovi su def nius punto it! Seguimi per altre notizie di sicurezza spiegate facili, e scrivimi nei commenti: nella tua azienda usate vi sènter?",
+   "cap": "Vuoi tutta la storia? La trovi su deafnews.it! Seguimi per altre notizie di sicurezza spiegate facili, e scrivimi nei commenti: nella tua azienda usate vCenter?",
+   "preset": "cta",
+   "question": "Usate vCenter?"
+  }
+ ]
+}
